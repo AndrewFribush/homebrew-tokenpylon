@@ -3,7 +3,7 @@
 class Tokenpylon < Formula
   desc "TokenPylon collector: LLM API call metadata, local usage page, shared price evidence"
   homepage "https://tokenpylon.com/docs"
-  version "0.6.31"
+  version "0.6.32"
   license :cannot_represent
 
   livecheck do
@@ -13,22 +13,22 @@ class Tokenpylon < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/AndrewFribush/tokenpylon-releases/releases/download/v0.6.31/tokenpylon_0.6.31_darwin_arm64.tar.gz"
-      sha256 "999a1b11df5c0dafd25a9e2c344971ff1975696c1c705d77478d5566052642f9"
+      url "https://github.com/AndrewFribush/tokenpylon-releases/releases/download/v0.6.32/tokenpylon_0.6.32_darwin_arm64.tar.gz"
+      sha256 "aec79eb69d15c719109feed5addc6ff253adb4288d26468aad8a2c7d25d81d61"
     end
     on_intel do
-      url "https://github.com/AndrewFribush/tokenpylon-releases/releases/download/v0.6.31/tokenpylon_0.6.31_darwin_amd64.tar.gz"
-      sha256 "3cbffd851a399a760e93ea00d4e65bd5de03c386c47f90356205fda3b2dbb67f"
+      url "https://github.com/AndrewFribush/tokenpylon-releases/releases/download/v0.6.32/tokenpylon_0.6.32_darwin_amd64.tar.gz"
+      sha256 "d73186e52b522bf202ca689d877d113a77a093bbe714b96e597b778b673b6fa6"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/AndrewFribush/tokenpylon-releases/releases/download/v0.6.31/tokenpylon_0.6.31_linux_arm64.tar.gz"
-      sha256 "a9f8a3f5a4e8261ed5616a6979236ca0cc2bd2f566209db1ab3174b1e56b977f"
+      url "https://github.com/AndrewFribush/tokenpylon-releases/releases/download/v0.6.32/tokenpylon_0.6.32_linux_arm64.tar.gz"
+      sha256 "51435df8471045e52c455612d9497d262ffcc5535c82a938826d1e1ac56051c4"
     end
     on_intel do
-      url "https://github.com/AndrewFribush/tokenpylon-releases/releases/download/v0.6.31/tokenpylon_0.6.31_linux_amd64.tar.gz"
-      sha256 "a2ce197b3a950f63fd1eb3268a0d68b236de6de20446b1a5473f38dfaf9b6ae5"
+      url "https://github.com/AndrewFribush/tokenpylon-releases/releases/download/v0.6.32/tokenpylon_0.6.32_linux_amd64.tar.gz"
+      sha256 "e3fabba8f245e22729cf06fcf06234649ab4c2ab4405e3256ccfd7aa48ce9219"
     end
   end
 
